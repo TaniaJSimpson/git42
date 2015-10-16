@@ -14,8 +14,8 @@ public class branquesGit {
 //
 		ArrayList<Integer> array = new ArrayList<Integer>();
 
-		for (int j = 0; j < 5; j++) {
-			array.add(aleatoris.nextInt(20));
+		for (int j = 0; j < 10; j++) {
+			array.add(aleatoris.nextInt(500000));
 
 		}
 		Collections.sort(array);
